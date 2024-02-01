@@ -38,7 +38,8 @@ Description : Learning CSS.
         }
 
         .block-demo {
-            display:flex;
+            display: flex;
+            justify-content:space-between;
             /*Ensure .block-demo centers its text.*/
         }
 
@@ -57,17 +58,10 @@ Description : Learning CSS.
         }
 
         .block-demo > .inline-demo:nth-child(2) {            
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;  
             color: blue;
-        
         }
 
         .block-demo > .inline-demo:nth-child(3) {
-            position: fixed;
-            right: 0;
             color:green;
 
         }
@@ -104,7 +98,7 @@ Description : Learning CSS.
 
     <h2>CSS Image Styling with Inline CSS</h2>
     <!-- Add a dotted green border of 3px inline. Which style will win the competition? -->
-    <img class="image-demo" style="" src="images/example.svg" alt="Demo Image">
+    <img class="image-demo" style="" src="example.svg" alt="Demo Image">
 
     <h2>CSS Hover Effects</h2>
     <div class="hover-demo"><span>Hover over me! My color will change to blue!</span></div>
